@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <!--Se agregó favicon-->
+    <link rel="stylesheet" href="css.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="js.js"></script>
+    <title>LuPe Computación</title>
+</head>
+
+<body>
+    <header>
+        <!--CARRUSEL-->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <center>
+                        <img src="1.png" class="d-block w-100" id="prueba3" alt="imagen n° 2 del carrusel">
+                        <!--Se agregó el ID "prueba3"-->
+                    </center>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1><b class="LuPe1">En <u class="LuPe01">LuPe</u> computación encontrarás los mejores
+                                precios!</b></h1>
+                        <p><b class="LuPe2">Somos lideres en el mercado de insumos tecnologicos.</b></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <center>
+                        <img src="2.png" class="d-block w-100" id="prueba4" alt="imagen n° 2 del carrusel">
+                        <!--Se agregó el ID "prueba3"-->
+                    </center>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2><i class="LuPe3">Contamos con envíos a todo el país.</i></h2>
+                        <p><i class="LuPe4">Si se encuentra a menos de 40km de distancia, el envío de su compra es <b
+                                    style="color:chartreuse;">GRATIS!</i></b></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <center>
+                        <img src="3.png" class="d-block w-100" id="prueba5" alt="imagen n° 3 del carrusel">
+                        <!--Se agregó el ID "prueba3"-->
+                    </center>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3><b class="LuPe5">Ahorre en sus compras tecnológicas!</b></h3>
+                        <p><b class="LuPe7"><u>LuPe Computación</u> <i class="LuPe6">es la mejor opción!</i></b></p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--CARRUSEL-->
+    </header>
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" id="prueba01" href="inicio.html">Inicio</a>
+            <!--Se agregó la ID "prueba" para poder editar en un archivo .css local y se cambio la ruta de redureccion con el nombre a "Inicio"-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <!--Se agregó dropdown-->
+                        <a class="nav-link dropdown-toggle" style="color:darkolivegreen;" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <!--Se agregó ID "Prueba"-->Categorias
+                        </a>
+                        <ul class="dropdown-menu" style="background-color:rgb(33, 37, 41);">
+                            <!--Se agregó ID "prueba2" para utilizar en Css-->
+                            <li><a class="dropdown-item" style="color:gray;" href="accesorios.html">Accesorios</a></li>
+                            <!--Se agregó ID "prueba2"-->
+                            <li><a class="dropdown-item" id="prueba2" href="almacenamiento.html">Almacenamiento</a></li>
+                            <li><a class="dropdown-item" id="prueba2" href="calculadoras.html">Calculadoras</a></li>
+                            <li><a class="dropdown-item" id="prueba2" href="cargadores.html">Cargadores</a></li>
+                            <li><a class="dropdown-item" id="prueba2" href="conectividad.html">Conectividad</a></li>
+                            <li><a class="dropdown-item" id="prueba2" href="equiposcomputacion.html">Equipos Computacion
+                                    y Oficina</a>
+                            </li>
+                            <li><a class="dropdown-item" id="prueba2" href="impresoras.html">Impresoras</a></li>
+                            <li><a class="dropdown-item" id="prueba2" href="insumos.html">Insumos</a></li>
+                            <li><a class="dropdown-item" id="prueba2" href="memorias.html">Memorias Pc/Notebook</a></li>
+                            <li><a class="dropdown-item" id="prueba2" href="monitores.html">Monitores</a></li>
+                            <li><a class="dropdown-item" id="prueba2" href="teclados.html">Teclados</a></li>
+                            <li><a class="dropdown-item" id="prueba2" href="mouse.html">Mouse</a></li>
+                            <li><a class="dropdown-item" style="color:darkolivegreen;" href="fuentes.html">Fuentes</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="prueba01" href="ofertas.html">Ofertas</a>
+                        <!--Se agregó la ID "prueba" para poder editar en un archivo .css local y se cambio la ruta de redureccion con el nombre a "Ofertas"-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="prueba01" href="masvendidos.html">Mas vendidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="prueba01" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="prueba01" href="informacioncontacto.html">Informacion de contacto</a>
+                    </li>
+                    <!--Se quitó dropdown-->
+                </ul>
+            </div>
+            <a class="nav-link" id="salir" onclick="salir()" href="#">Salir de la pagina</a>
+            <!--Se agregó boton de salida hacia www.google.com-->
+        </div>
+    </nav>
+    <!--Barra de navegacion-->
+    <hr class="border border-primary border-3 opacity-75">
+    <!--Separador azul-->
+
+    <div style="background-color:rgb(33, 37, 41);">
+        <center>
+            <p class="LuPe10"><b><i><u>Fuentes:</u></i></b></p><br>
+        </center>
+        <br>
+        <br>
+        <center><img src="/fuentes/1.jpg" alt="Foto Fuente noga 550W" class="productos"><br>
+            <p class="caracteristicas">FUENTE 550W 20+4 SATA NOGANET OEM</p><br><button onclick="productos()"
+                class="botonconsulta">Consultar</button>
+        </center>
+        <br>
+    </div>
+    <hr class="border border-primary border-3 opacity-75">
+    <!--Separador azul-->
+    <footer class="footer"> LuPe Computacion® - Lucas Perez©.</footer>
+    <hr class="border border-primary border-3 opacity-75">
+    <!--Separador azul-->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

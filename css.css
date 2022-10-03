@@ -1,0 +1,386 @@
+body{
+background-image:url("background.jpg");
+background-size: contain;
+}
+
+#prueba01{
+    color:azure;
+}
+
+
+
+#prueba2{
+    color: gray;
+}
+
+#prueba3{
+    max-width: 30%;
+    max-height: 30%;
+
+}
+
+#prueba4{
+    max-width: 15.45%;
+    max-height: 15.45%;
+}
+
+#prueba5{
+    max-width: 14.8%;
+    max-height: 14.8%;
+
+}
+
+.LuPe1 {
+    background-color:rgb(33, 37, 41);
+    font-family:'Gill Sans';
+    font-size: 100%;
+    color:dodgerblue;
+}
+
+.LuPe01{
+    color:darkorange;
+}
+
+.LuPe2{
+    background-color:rgb(33, 37, 41);
+    font-size: 120%;
+}
+
+.LuPe3 {
+    background-color:rgb(33, 37, 41);
+    font-family:'Gill Sans';
+    font-size: 150%;
+    color:gold;
+}
+
+.LuPe4{
+    background-color:rgb(33, 37, 41);
+    color:olivedrab;
+    font-size: 120%;
+}
+
+.LuPe5 {
+    background-color:rgb(33, 37, 41);
+    font-family:'Gill Sans';
+    font-size: 150%;
+    color:gold;
+    text-align: center;
+}
+
+.LuPe6{
+    color:darkorange;
+}
+
+.LuPe7{
+    color:dodgerblue;
+    font-size: 150%;
+    background-color:rgb(33, 37, 41);
+}
+
+
+.LuPe9{
+    background-color:rgb(33, 37, 41);
+    color:olivedrab;
+    font-size: 190%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.LuPe10{
+    background-color:rgb(33, 37, 41);
+        color:olivedrab;
+        font-size: 190%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+    }
+
+.LuPe11{
+    background-color:rgb(33, 37, 41);
+    color: azure;
+    margin-left: 2%;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+#contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.elemento{
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+
+.elemento1{
+    grid-column:2/3;
+    grid-row: 1/2;
+
+}
+.elemento2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+
+}
+
+.elemento3
+{
+    grid-column: 4/5;
+    grid-row: 1/2;
+
+}
+
+
+
+#contenedor01 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr; 
+}
+
+.elemento4 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.elemento5{
+    grid-column:2/3;
+    grid-row: 2/3;
+
+}
+.elemento6 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.elemento7 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+
+
+
+
+
+
+
+
+#contenedor2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.elemento8{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.elemento9{
+    grid-column:2/3;
+    grid-row: 1/2;
+}
+
+.elemento10{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.elemento11{
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+
+
+
+#contenedor3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.elemento12{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.elemento13{
+    grid-column:2/3;
+    grid-row: 1/2;
+}
+.elemento14{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.elemento15{
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+#contenedor4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#contenedor5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.caracteristicas {
+    color:gold;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+.botonconsulta{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color:black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color:darkolivegreen;
+}
+
+
+
+.formulario {
+    font-size: 115%;
+    background-color:rgb(33, 37, 41);
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#tablaformulario{
+    border: 30px solid rgb(33, 37, 41);
+}
+
+
+
+.productos {
+    border: 3px solid black;
+}
+
+
+
+
+
+.articulo1{
+    color: white;
+    background-color: rgba(33, 37, 41, 0.692);
+    height: 100%;
+    width: 96%;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 2%;
+    text-align: center;
+}
+
+.articulo2{
+    color: white;
+    background-color: rgba(33, 37, 41, 0.692);
+    height: 100%;
+    width: 96%;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 2%;
+    text-align: center;
+}
+
+
+
+#contenedor7{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+
+
+.section {
+    background-color:rgba(85, 107, 47, 0.801) ;
+    width: 96%;
+    height: 100%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin-left: 2%;
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+
+
+.aside {
+    grid-column: 3/4;
+    grid-row: 1/2;
+
+}
+
+
+.footer {
+    background-color:rgb(33, 37, 41);
+    font-size: 120%;
+    color: gray;
+    text-align: center;
+    border: 1px rgb(85, 107, 47) solid;
+}
+
+.wzp {
+    background-color:rgba(85, 107, 47);
+    font-size: 150%;
+    color: black;
+text-align: center;
+}
+
+
+.tablaorganizacion {
+    border: 2px rgb(85, 107, 47) solid;
+    color: azure;
+    background-color:rgb(33, 37, 41) ;
+    font-size: 130%;
+text-align: center;
+}
+
+.sannicolas{
+    font-size: 60%;
+}
+
+.masvendidos {
+    background-color: rgb(85, 107, 47);
+    text-align: center;
+    color:white;
+
+}
+.masvendidos10{
+    font-size: 170%;
+    color:white;
+}
+
+#ofertas{
+    background-color:rgb(33, 37, 41);
+    color: azure;
+}
+
+
+.contenedorpantalla {
+    display: grid;
+    place-content: center;
+}
+
+.veasetambien {
+        color:rgb(85, 107, 47);
+        background-color: rgba(33, 37, 41, 0.692);
+        border: 1px solid black;
+        border-radius: 20px;
+        text-align: center;
+        width: 100%;
+        font-size: 120%;
+}
+
+#salir{
+    color: azure;
+
+}

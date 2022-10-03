@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <!--Se agregó favicon-->
+    <link rel="stylesheet" href="css.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="js.js"></script>
+    <title>LuPe Computación</title>
+</head>
+
+<body>
+    <header>
+        <!--CARRUSEL-->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <center>
+                        <img src="1.png" class="d-block w-100" id="prueba3" alt="imagen n° 2 del carrusel">
+                        <!--Se agregó el ID "prueba3"-->
+                    </center>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1><b class="LuPe1">En <u class="LuPe01">LuPe</u> computación encontrarás los mejores
+                                precios!</b></h1>
+                        <p><b class="LuPe2">Somos lideres en el mercado de insumos tecnologicos.</b></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <center>
+                        <img src="2.png" class="d-block w-100" id="prueba4" alt="imagen n° 2 del carrusel">
+                        <!--Se agregó el ID "prueba3"-->
+                    </center>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2><i class="LuPe3">Contamos con envíos a todo el país.</i></h2>
+                        <p><i class="LuPe4">Si se encuentra a menos de 40km de distancia, el envío de su compra es <b
+                                    style="color:chartreuse;">GRATIS!</i></b></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <center>
+                        <img src="3.png" class="d-block w-100" id="prueba5" alt="imagen n° 3 del carrusel">
+                        <!--Se agregó el ID "prueba3"-->
+                    </center>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3><b class="LuPe5">Ahorre en sus compras tecnológicas!</b></h3>
+                        <p><b class="LuPe7"><u>LuPe Computación</u> <i class="LuPe6">es la mejor opción!</i></b></p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--CARRUSEL-->
+    </header>
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" id="prueba01" href="inicio.html">Inicio</a>
+            <!--Se agregó la ID "prueba" para poder editar en un archivo .css local y se cambio la ruta de redureccion con el nombre a "Inicio"-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <!--Se agregó dropdown-->
+                        <a class="nav-link dropdown-toggle" id="prueba01" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <!--Se agregó ID "Prueba"-->Categorias
+                        </a>
+                        <ul class="dropdown-menu" style="background-color:rgb(33, 37, 41);">
+                            <!--Se agregó ID "prueba2" para utilizar en Css-->
+                            <li><a class="dropdown-item" id="prueba2" href="accesorios.html">Accesorios</a></li>
+                            <!--Se agregó ID "prueba2"-->
+                            <li><a class="dropdown-item" id="prueba2" href="almacenamiento.html">Almacenamiento</a></li>
+                            <li><a class="dropdown-item" id="prueba2" href="calculadoras.html">Calculadoras</a></li>
+                            <li><a class="dropdown-item" id="prueba2" href="cargadores.html">Cargadores</a></li>
+                            <li><a class="dropdown-item" id="prueba2" href="conectividad.html">Conectividad</a></li>
+                            <li><a class="dropdown-item" id="prueba2" href="equiposcomputacion.html">Equipos Computacion
+                                    y Oficina</a>
+                            </li>
+                            <li><a class="dropdown-item" id="prueba2" href="impresoras.html">Impresoras</a></li>
+                            <li><a class="dropdown-item" id="prueba2" href="insumos.html">Insumos</a></li>
+                            <li><a class="dropdown-item" id="prueba2" href="memorias.html">Memorias Pc/Notebook</a></li>
+                            <li><a class="dropdown-item" id="prueba2" href="monitores.html">Monitores</a></li>
+                            <li><a class="dropdown-item" id="prueba2" href="teclados.html">Teclados</a></li>
+                            <li><a class="dropdown-item" id="prueba2" href="mouse.html">Mouse</a></li>
+                            <li><a class="dropdown-item" id="prueba2" href="fuentes.html">Fuentes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="prueba01" href="ofertas.html">Ofertas</a>
+                        <!--Se agregó la ID "prueba" para poder editar en un archivo .css local y se cambio la ruta de redureccion con el nombre a "Ofertas"-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="prueba01" href="masvendidos.html">Mas vendidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color:darkolivegreen;" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="prueba01" href="informacioncontacto.html">Informacion de contacto</a>
+                    </li>
+                    <!--Se quitó dropdown-->
+                </ul>
+            </div>
+            <a class="nav-link" id="salir" onclick="salir()" href="#">Salir de la pagina</a>
+            <!--Se agregó boton de salida hacia www.google.com-->
+        </div>
+    </nav>
+    <!--Barra de navegacion-->
+    <p style="background-color:rgba(85, 107, 47); color: azure;font-size: 120%;"><b>Haga click <a
+                href="/precioslista.png" download="Lista de precios.png" style="font-size:120%; color: black;">Aquí</a>
+            para descargar nuestra lista de precios</b></p>
+    <hr class="border border-primary border-3 opacity-75">
+    <!--Separador azul-->
+    <center>
+        <table class="formulario" id="tablaformulario">
+            <form>
+                <tr>
+                    <td>
+                        <p class="LuPe9"><u>Contáctanos</u></p><br>
+                        <label class="formulario">Nombre:</label><br>
+                        <input type="text" name="Nombre" maxlength="10" required="1" size="30px">
+                    </td>
+                </tr>
+                <tr>
+                    <td><br>
+                        <label class="formulario">Correo Electrónico:</label><br>
+                        <input type="email" name="Email" maxlength="30" required="1" size="30px">
+                    </td>
+                </tr>
+                <tr>
+                    <td><br>
+                        <label class="formulario">Numero de telefono:</label><br>
+                        <input type="tel" name="Telefono" maxlength="16" required="1" size="30px"
+                            placeholder="(Código de área) Número">
+                    </td>
+                </tr>
+                <tr>
+                    <td><br>
+                        <label class="formulario">Seleccione el producto a consultar:</label><br>
+                        <select required="1" name="Opciones">
+                            <option value="adap2">ADAPTADOR DVI-D A VGA</option>
+                            <option value="adap3">ADAPTADOR DVI-I A VGA</option>
+                            <option value="adap4">ADAPTADOR MINI HDMI a HDMI</option>
+                            <option value="adap5">ADAPTADOR VGA A HDMI</option>
+                            <option value="adaptador1">ADAPTADOR 09-031A HDMI A VGA</option>
+                            <option value="antena1">ANTENA WIFI USB TP- LINK AC1300</option>
+                            <option value="botella1">BOTELLA DE TINTA EPSON 664</option>
+                            <option value="cable1">Cable audio plug 3.5 MM</option>
+                            <option value="calc1">Calculadora Cifra PR-235</option>
+                            <option value="calc2">Calculadora Cifra PR-255T</option>
+                            <option value="calc3">Cifra PR-1200</option>
+                            <option value="calc4">Cifra PR-226</option>
+                            <option value="calc5">Cifra PR-26</option>
+                            <option value="carg1">Cargador de Notebook universal POWER</option>
+                            <option value="carry">CARRY DISK USB 2.0 HD 2.5 SATA NETMAK</option>
+                            <option value="cart1">Cartucho alternativo epson 195/196</option>
+                            <option value="cart2">Cartucho alternativo epson T73</option>
+                            <option value="cart3">Cartucho alternativo T135/133</option>
+                            <option value="cart4">Cartuchos alternativo epson 297/296</option>
+                            <option value="cart5">Cartuchos EPSON</option>
+                            <option value="cart6">Cartucho Color HP 22</option>
+                            <option value="cart7">Cartucho Color HP 60</option>
+                            <option value="cart8">Cartucho Color HP 75</option>
+                            <option value="cart9">CARTUCHO HP 664 XL NEGRO/COLOR</option>
+                            <option value="cart10">Cartucho Negro HP 21</option>
+                            <option value="cart11">Cartucho Negro HP 60</option>
+                            <option value="cart12">Cartucho Negro HP 74</option>
+                            <option value="cart13">Cartuchos HP</option>
+                            <option value="contro1">CONTROLADOR HASAR 6100</option>
+                            <option value="conv1">CONVERSOR HDMI a VGA</option>
+                            <option value="disk1">DISCO RIGIDO PC SEAGATE/WD 1TB</option>
+                            <option value="disk2">Disco SSD 480 GB</option>
+                            <option value="disk3">Disco SSD 120 GB</option>
+                            <option value="disk4">Disco SSD 240 Gb</option>
+                            <option value="disk5">DISCO SSD 250 GB</option>
+                            <option value="extensor1">Extensor de Rango TP-LINK RE200</option>
+                            <option value="fuente1">FUENTE 550W 20+4 SATA NOGANET OEM</option>
+                            <option value="imp1">IMPRESORA HP 8210 INK JET</option>
+                            <option value="imp2">IMPRESORA BROTHER 1200</option>
+                            <option value="imp3">IMPRESORA BROTHER 1212W</option>
+                            <option value="imp4">IMPRESORA BROTHER DCP1617NW MULTIFUNCION</option>
+                            <option value="imp5">IMPRESORA ECOTANK EPSON 3150W</option>
+                            <option value="imp6">IMPRESORA EPSON 3110 ECOTANK</option>
+                            <option value="imp7">IMPRESORA HP 2775</option>
+                            <option value="imp8">IMPRESORA HP ECOTANK 315 (botella)</option>
+                            <option value="mem1">MEMORIA DDR3 4GB 1333 Mhz</option>
+                            <option value="mem2">MEMORIA DDR3 4GB 1600 mhz</option>
+                            <option value="mem3">MEMORIA DDR4 8GB 2400</option>
+                            <option value="mem4">MEMORIA PC DDR2 2GB 800 MHZ</option>
+                            <option value="mem5">MEMORIA PC DDR4 4GB 2666 Mhz</option>
+                            <option value="mem6">MEMORIA PC DDR4 16GB 2400 Mhz</option>
+                            <option value="mem7">MEMORIA PC DDR4 4GB 2400 Mhz</option>
+                            <option value="mem8">MEMORIA PC DDR4 8GB 2400 Mhz</option>
+                            <option value="mem9">MEMORIA PC DDR4 8GB 2666 Mhz</option>
+                            <option value="mem10">MEMORIA SODIMM DDR3 4GB 1600 Mhz</option>
+                            <option value="mem11">MEMORIA SODIMM DDR3 8GB 1600 Mhz</option>
+                            <option value="mem12">MEMORIA SODIMM DDR4 4GB 2400 Mhz</option>
+                            <option value="mem13">MEMORIA SODIMM DDR4 8GB 2666 Mhz</option>
+                            <option value="monitor1">MONITOR HP 18.5 V194 VGA</option>
+                            <option value="mouse1">MOUSE GENIUS 7000</option>
+                            <option value="mouse2">Mouse inalambrico Logitech M170</option>
+                            <option value="note1">NOTEBOOKB HP 14DK1025WM 14" R3 3250 4GB 1TB W10</option>
+                            <option value="note2">NOTEBOOK HP 240 G7 14" CELERON N4100 4GB WIND HOME 500GB W10S</option>
+                            <option value="note3">NOTEBOOK LENOVO 14 THINKPAD E14 GEN2/8GB DDR4/256SSD</option>
+                            <option value="pen1">PEN DRIVE 32GB KINGSTON</option>
+                            <option value="pen2">Pendrive Kingston 16 GB</option>
+                            <option value="pen3">Pendrive Kingston 32 GB</option>
+                            <option value="pen4">Pendrive Kingston 64 GB</option>
+                            <option value="placared1">PLACA RED TP-LINK USB ARCHER T2U AC600 DUAL BAND</option>
+                            <option value="placared2">PLACA RED TP-LINK USB TLWN722N</option>
+                            <option value="placared3">PLACA RED TP-LINK USB TLWN823N MINI</option>
+                            <option value="resma1">RESMA A4 70 GRS</option>
+                            <option value="resma2">RESMA A4 75</option>
+                            <option value="resma3">RESMA A4 80 Grs</option>
+                            <option value="resma4">RESMA OFICIO 75</option>
+                            <option value="resma5">RESMA OFICIO 80</option>
+                            <option value="rollo1">ROLLOS OBRA 57x30</option>
+                            <option value="rollo2">ROLLOS OBRA 75 x 30</option>
+                            <option value="rollo3">ROLLOS OBRA 75 x 60</option>
+                            <option value="rollo4">Rollos para fiscales, comanderas, postnet</option>
+                            <option value="rollo5">ROLLOS QUIMICOS 75x60</option>
+                            <option value="rollo6">ROLLOS TERMICO 57 x 30</option>
+                            <option value="rollo7">ROLLOS TERMICO 80 x 50</option>
+                            <option value="router1">Router Gigabit Inalámbrico MU-MIMO de Banda Dual AC1200 Archer C6
+                            </option>
+                            <option value="router2">Router Inalámbrico N 300Mbps TL-WR820N</option>
+                            <option value="router3">Router Inalámbrico N 300Mbps TL-WR840N</option>
+                            <option value="router4">ROUTER TP-LINK WIRELESS TLWR841HP 300MBPS 2ANT H</option>
+                            <option value="router5">ROUTER TP-LINK WIRELESS TLWR941HP</option>
+                            <option value="tarj1">Tarjeta de Memoria Kingston Micro SD 16 GB</option>
+                            <option value="tarj2">Tarjeta de Memoria Micro SD 64 GB</option>
+                            <option value="tarj3">Tarjeta de Memoria Micro SD Kingston 32GB</option>
+                            <option value="tecl1">TECLADO GENIUS USB</option>
+                            <option value="tecl2">TECLADO LOGITECH</option>
+                            <option value="tecl3">TECLADO NUMÉRICO GENIUS</option>
+                            <option value="tecl4">TECLADO USB GENIUS</option>
+                            <option value="tecl5">TECLADO USB XTECH XTK130</option>
+                            <option value="tecl6">TECLADO y MOUSE LOGITECH USB</option>
+                            <option value="toner1">Toners Originales y Alternativos</option>
+                            <option value="webcam">WEBCAM LOGITECH C270 HD</option>
+                            <option value="wifi1">Wifi / Routers / Switch / Cables</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><br>
+                        <label class="formulario">Seleccione localidad donde reside:</label><br>
+                        <select name="Opciones" id="gratis" onchange="enviogratis();">
+                            <option selected="true" disabled="disabled">Seleccione localidad</option>
+                            <option value="Campo Salles">Campo Salles</option>
+                            <option value="Conesa">Conesa</option>
+                            <option value="Erescano">Erescano</option>
+                            <option value="Fighiera">Fighiera</option>
+                            <option value="General Rojo">General Rojo</option>
+                            <option value="Godoy">Godoy</option>
+                            <option value="La Emilia">La Emilia</option>
+                            <option value="Pavón">Pavón</option>
+                            <option value="Ramallo">Ramallo</option>
+                            <option value="Rueda">Rueda</option>
+                            <option value="San Nicolas De Los Arroyos">San Nicolás De Los Arroyos</option>
+                            <option value="Sanchez">Sanchez</option>
+                            <option value="Theobald">Theobald</option>
+                            <option value="Villa Campi">Villa Campi</option>
+                            <option value="Villa Canto">Villa Canto</option>
+                            <option value="Villa Constitución">Villa Constitución</option>
+                            <option value="Villa Hermosa">Villa Hermosa</option>
+                            <option value="Villa Riccio">Villa Riccio</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="sannicolas">(Si su localidad no está en la lista por favor indique la distancia
+                            aproximada a la que se encuentra de San Nicolás).</p>
+                    </td>
+                </tr>
+                <td>
+                    <label>Distancia:</label><br>
+                    <input type="number" name="distancia" maxlength="4" size="30px" id="distancia">
+                    <label>Kilometros</label>
+                    <br>
+                    <button onclick="kilometros()">Consultar</button>
+                </td>
+                </tr>
+                <tr>
+                    <td><br>
+                        <label class="formulario">Mensaje:</label><br>
+                        <textarea cols="59px" rows="3" maxlength="400" required="1" name="mensaje"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <center><input class="botonconsulta" type="submit" value="Enviar"></center>
+                    </td>
+                </tr>
+            </form>
+        </table>
+        </td>
+    </center>
+    <hr class="border border-primary border-3 opacity-75">
+    <!--Separador azul-->
+    <footer class="footer"> LuPe Computacion® - Lucas Perez©.</footer>
+    <hr class="border border-primary border-3 opacity-75">
+    <!--Separador azul-->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
